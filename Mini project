@@ -1,0 +1,25 @@
+ProjectMOd 4 
+
+How to boot usb
+
+download and install rufus :
+
+visit the rufus website and download the latest version of rufus ( it's portable, so no installation is necessary) . insert your usb Drive :
+
+plug your usb drive into the computer. launch Rufus 
+
+open the rufus application . it should automatically detect tour usb drive. select the bootable iso file
+
+click on select under the boot selection section . choose the ISO file of the operating system or utility you want to put on the uSB Drive (e.g. a linux distro or windows Iso). configure PartitionScheme 
+
+For most modern systems ,set partition schemen to Gpt (for UEFI systems ) or MBR ( for BIOs systems ). for file system choose FAT32 if the file size is under 4Gb, or NTFs for longer files. start the process 
+
+Click on start. you may be prompted to select write in ISo image mode (recommended). Warning :This will erase all data on the USB drive , so make sure you have backed up anything important . Wait for Completion
+
+Rufus will format the uSb and copy the Iso contents to make it bootable. This process can take several minutes. Boot from USB 
+
+Once done, safely eject the USB drive. To boot from it, restart your computer and enter the BIOs or boot menu ( usually by pressing a key like F12, ESc, or DEL during startup ). Select the USB drive from the boot menu to boot from the USB.
+
+
+
+https://www.wikihow.com/Make-a-USB-Bootable
